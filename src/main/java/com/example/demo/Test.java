@@ -4,6 +4,15 @@ public class Test {
     private String name;
     private int age;
     private String number;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getNumber() {
         return number;
@@ -35,6 +44,7 @@ public class Test {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", number='" + number + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 }
